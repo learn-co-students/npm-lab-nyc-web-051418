@@ -1,0 +1,31 @@
+{
+  "name": "max_package",
+  "version": "1.0.0",
+  "description": "dope package",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/squamuglia/npm-lab-nyc-web-051418.git"
+  },
+  "keywords": [
+    "fire",
+    "dope",
+    "dopefire"
+  ],
+  "author": "max",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/squamuglia/npm-lab-nyc-web-051418/issues"
+  },
+  "homepage": "https://github.com/squamuglia/npm-lab-nyc-web-051418#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.17",
+    "moment": "^2.22.2"
+  }
+}
